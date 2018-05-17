@@ -4,9 +4,9 @@ nodes.customNode = require('./nodeHelpers/customNode');
 nodes.infuraNode = require('./nodeHelpers/infura');
 nodes.metamaskNode = require('./nodeHelpers/metamask');
 nodes.nodeTypes = {
-    ETH: "ETH",
+    GOC: "GOC",
+	ETH: "ETH",
     ETC: "ETC",
-	GOC: "GOC",
     MUS: "MUSIC",
     Ropsten: "ROPSTEN ETH",
     Kovan: "KOVAN ETH",
@@ -40,18 +40,6 @@ nodes.customNodeObj = {
     'lib': null
 };
 nodes.nodeList = {
-    'eth_mew': {
-        'name': 'ETH',
-        'blockExplorerTX': 'https://etherscan.io/tx/[[txHash]]',
-        'blockExplorerAddr': 'https://etherscan.io/address/[[address]]',
-        'type': nodes.nodeTypes.ETH,
-        'eip155': true,
-        'chainId': 1,
-        'tokenList': require('./tokens/ethTokens.json'),
-        'abiList': require('./abiDefinitions/ethAbi.json'),
-        'service': 'myetherapi.com',
-        'lib': new nodes.customNode('https://api.myetherapi.com/eth', '')
-    },
 	'goc': {
         'name': 'GOC',
         'blockExplorerTX': 'https://testnet-explorer.gochain.io/tx/[[txHash]]',
@@ -63,6 +51,18 @@ nodes.nodeList = {
         'abiList': require('./abiDefinitions/gocAbi.json'),
         'service': 'GoChain',
         'lib': new nodes.customNode('https://testnet-rpc.gochain.io', '')
+    },
+    'eth_mew': {
+        'name': 'ETH',
+        'blockExplorerTX': 'https://etherscan.io/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://etherscan.io/address/[[address]]',
+        'type': nodes.nodeTypes.ETH,
+        'eip155': true,
+        'chainId': 1,
+        'tokenList': require('./tokens/ethTokens.json'),
+        'abiList': require('./abiDefinitions/ethAbi.json'),
+        'service': 'myetherapi.com',
+        'lib': new nodes.customNode('https://api.myetherapi.com/eth', '')
     },
     'eth_ethscan': {
         'name': 'ETH',
