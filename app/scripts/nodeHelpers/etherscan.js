@@ -110,7 +110,7 @@ etherscan.queuePost = function() {
     var data = this.pendingPosts[0].data;
     var callback = this.pendingPosts[0].callback;
     var parentObj = this;
-    data.apikey = 'DSH5B24BQYKD1AD8KUCDY3SAQSS6ZAU175';
+    data.apikey = 'TS7V9BUUIM1ZNANHPJIYQHE1PT35C19ME8';
     ajaxReq.http.post(this.SERVERURL, ajaxReq.postSerializer(data), this.config).then(function(data) {
         callback(data.data);
         parentObj.pendingPosts.splice(0, 1);

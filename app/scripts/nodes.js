@@ -6,6 +6,7 @@ nodes.metamaskNode = require('./nodeHelpers/metamask');
 nodes.nodeTypes = {
     ETH: "ETH",
     ETC: "ETC",
+	GOC: "GOC",
     MUS: "MUSIC",
     Ropsten: "ROPSTEN ETH",
     Kovan: "KOVAN ETH",
@@ -50,6 +51,18 @@ nodes.nodeList = {
         'abiList': require('./abiDefinitions/ethAbi.json'),
         'service': 'myetherapi.com',
         'lib': new nodes.customNode('https://api.myetherapi.com/eth', '')
+    },
+	'goc': {
+        'name': 'GOC',
+        'blockExplorerTX': 'https://testnet-explorer.gochain.io/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://testnet-explorer.gochain.io/addr/[[address]]',
+        'type': nodes.nodeTypes.GOC,
+        'eip155': true,
+        'chainId': 31337,
+        'tokenList': require('./tokens/gocTokens.json'),
+        'abiList': require('./abiDefinitions/gocAbi.json'),
+        'service': 'GoChain',
+        'lib': new nodes.customNode('https://testnet-rpc.gochain.io', '')
     },
     'eth_ethscan': {
         'name': 'ETH',
