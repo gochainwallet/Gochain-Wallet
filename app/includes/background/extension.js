@@ -54,7 +54,7 @@ function querycB(tabs) {
 	if(foundWhitelist === undefined) {
 		if (foundBlacklist !== undefined || checkUrlSimilarity(tabs[0].url, SEARCH_STRING)) {
 			urlRedirect = encodeURI(
-				`https://www.myetherwallet.com/phishing.html?phishing-address=${
+				`https://www.gochainwallet.com/phishing.html?phishing-address=${
 					tabs[0].url
 				}`
 			);
