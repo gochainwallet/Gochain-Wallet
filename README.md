@@ -1,4 +1,4 @@
-### [https://www.MyEtherWallet.com](https://www.MyEtherWallet.com)
+### [https://www.GoChainWallet.com](https://www.GoChainWallet.com)
 
 ### [Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm)
 
