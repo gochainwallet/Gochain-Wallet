@@ -6,7 +6,7 @@ var addressFieldDrtv = function($compile, darkList) {
             var Darklist = darkList();
             var varName = attrs.varName;
             var varArr = varName.split('.');
-            var placeholder = attrs.placeholder == undefined ? 'mewtopia.eth or 0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D' : attrs.placeholder ;
+            var placeholder = attrs.placeholder == undefined ? 'mewtopia.eth or 0xD559AdeE40280e2567f1e962E036296F88884fDc' : attrs.placeholder ;
             var labelTranslated = attrs.labeltranslated == undefined ? 'SEND_addr' : attrs.labeltranslated;
             var setValue = function(value) {
                 var temp = scope;
