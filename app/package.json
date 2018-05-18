@@ -1,8 +1,8 @@
 {
-    "name": "MyEtherWallet",
+    "name": "GoChainWallet",
     "version": "3.21.07",
-    "description": "An NPM dist of MyEtherWallet. For easier downloading & updating via CLI.",
-    "author": "MyEtherWallet",
+    "description": "An NPM dist of GoChainWallet. For easier downloading & updating via CLI.",
+    "author": "GoChainWallet",
     "license": "ISC",
     "devDependencies": {
         "open": "0.0.5"

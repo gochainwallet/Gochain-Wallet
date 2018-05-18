@@ -5,52 +5,52 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://www.myetherwallet.com/</loc>
+  <loc>https://www.gochainwallet.com/</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.myetherwallet.com/#send-transaction</loc>
+  <loc>https://www.gochainwallet.com/#send-transaction</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.myetherwallet.com/#swap</loc>
+  <loc>https://www.gochainwallet.com/#swap</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.myetherwallet.com/#offline-transaction</loc>
+  <loc>https://www.gochainwallet.com/#offline-transaction</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.myetherwallet.com/#contracts</loc>
+  <loc>https://www.gochainwallet.com/#contracts</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.myetherwallet.com/#ens</loc>
+  <loc>https://www.gochainwallet.com/#ens</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.myetherwallet.com/#check-tx-status</loc>
+  <loc>https://www.gochainwallet.com/#check-tx-status</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.myetherwallet.com/#view-wallet-info</loc>
+  <loc>https://www.gochainwallet.com/#view-wallet-info</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.myetherwallet.com/signmsg.html</loc>
+  <loc>https://www.gochainwallet.com/signmsg.html</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://www.myetherwallet.com/helpers.html</loc>
+  <loc>https://www.gochainwallet.com/helpers.html</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.5</priority>
 </url>
