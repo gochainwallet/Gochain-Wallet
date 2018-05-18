@@ -53,7 +53,7 @@
 
 
   <!-- Slider Thingy -->
-  <!-- Hardware Wallets -->
+  <!-- Hardware Wallets 
   <a href="https://gochainwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html"
      ng-show="slide==1 || ajaxReq.type!=='ETH'"
      class="block swap--hw"
@@ -73,7 +73,7 @@
       <br />
       <img src="images/logo-trezor.svg" width="80" height="auto" class="swap__logo">
     </div>
-  </a>
+  </a>-->
 
   <!-- Bity -->
   <a ng-click="globalService.currentTab=globalService.tabs.swap.id"
@@ -121,15 +121,13 @@
   <div class="block token-balances">
     <h5 translate="sidebar_TokenBal">Token Balances</h5>
 
-    <!-- Load Token Balances
+    <!-- Load Token Balances -->
     <a class="btn btn-warning btn-xs"
        ng-click="wallet.setTokens(); globalService.tokensLoaded=true"
        ng-hide="globalService.tokensLoaded">
       <img src="images/icon-load-tokens.svg" style="height: 1em; width: auto; margin-right: 5px;" />
       Load Tokens
     </a>
-     -->
-
     <!-- you can your Balance on Blockchain Explorer -->
 
 
@@ -175,7 +173,7 @@
     <div class="custom-token-fields" ng-show="customTokenField">
       <div class="row">
         <address-field
-          placeholder="{{ ajaxReq.type=='ETH' ? 'mewtopia.eth' : '0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D' }}"
+          placeholder="{{ ajaxReq.type=='ETH' ? 'mewtopia.eth' : '0xD559AdeE40280e2567f1e962E036296F88884fDc' }}"
           var-name="localToken.contractAdd"
           labelTranslated="TOKEN_Addr">
         </address-field>
