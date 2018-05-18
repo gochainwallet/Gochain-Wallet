@@ -115,7 +115,7 @@ ONBOARD_welcome_title           :  'いらっしゃいませ！ GoChainWallet.co
 ONBOARD_welcome_content__1      :  'あなた自身の安全のために、以下の事項をご理解ください。🙏', /*Please take some time to understand this for your own safety. 🙏*/
 ONBOARD_welcome_content__2      :  'これらの警告をよくご覧いただきませんと、**資産が盗まれる**ことになります。', /*Your funds will be stolen if you do not heed these warnings.*/
 ONBOARD_welcome_content__3      :  'わずらわしい説明だと重々承知しております。申し訳ございません。', /*We know this click-through stuff is annoying. We are sorry.*/
-ONBOARD_welcome_content__4      :  'MEWとは何か', /*What is MEW*/
+ONBOARD_welcome_content__4      :  'MEWとは何か', /*What is GoChainWallet*/
 ONBOARD_welcome_content__5      :  'GoChainWalletは、無料で、オープンソースの、クライアントサイド・インターフェイスです。', /*GoChainWallet is a free, open-source, client-side interface.*/
 ONBOARD_welcome_content__6      :  '暗号鍵と資産を自身の管理下に置きながら、ブロックチェーンを直接操作することができます。', /*We allow you to interact directly with the blockchain while remaining in full control of your keys &amp; your funds.*/
 ONBOARD_welcome_content__7      :  '**あなた**が、そして**あなただけ**が、自分のセキュリテイの全責任を負います。', /***You** and **only you** are responsible for your security.*/
@@ -135,7 +135,7 @@ ONBOARD_interface_content__4    :  '私たちは取引手数料を一切いた�
 ONBOARD_interface_content__5    :  'あなたは、私たちの**窓口**で**ブロックチェーンを直接**操作しています。', /*You are simply using our **interface** to interact **directly with the blockchain**.*/
 ONBOARD_interface_content__6    :  '公開鍵（アドレス）を相手に教えると、ETHやトークンを送ってもらうことができます。👍', /*If you send your *public key (address)* to someone, they can send you ETH or tokens. 👍*/
 ONBOARD_interface_content__7    :  '秘密鍵が誰かの手に渡ると、受け取った相手があなたの口座を横取りしてしまいます。👎', /*If you send your *private key* to someone, they now have full control of your account. 👎*/
-ONBOARD_bank_title__alt         :  'GoChainWalletは金融機関に非ず', /*MEW isn\'t a Bank*/
+ONBOARD_bank_title__alt         :  'GoChainWalletは金融機関に非ず', /*GoChainWallet isn\'t a Bank*/
 ONBOARD_blockchain_title__alt   :  'そもそもブロックチェーンとは何か', /*WTF is a Blockchain?*/
 ONBOARD_blockchain_skip         :  'もう知ってるんだけど...', /*I already know what a blockchain is...*/
 ONBOARD_blockchain_title        :  'ちょっと待って、一体ブロックチェーンって何？', /*Wait, WTF is a Blockchain?*/
@@ -145,7 +145,7 @@ ONBOARD_blockchain_content__3   :  '世界中に何千もいる特殊なコン�
 ONBOARD_blockchain_content__4   :  'ブロックチェーンの中にあるブロックは全て、GoChainWalletやMetaMask、Exodus、Mist、Geth、Parity、その他様々な場所から送られてきた個々の取引記録で構成されています。', /*The blocks in the blockchain are made up of all the individual transactions sent from GoChainWallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.*/
 ONBOARD_blockchain_content__5   :  'GoChainWalletや[etherscan.io](https://etherscan.io)で残高や取引記録を確認すると、見えるのは私たちのシステムの中身ではなく、ブロックチェーン上にあるデータです。', /*When you see your balance on GoChainWallet.com or view your transactions on [etherscan.io](https://etherscan.io), you are seeing data on the blockchain, not in our personal systems.*/
 ONBOARD_blockchain_content__6   :  '大事なことなのでもう一度: **私たちは金融機関ではありません。**', /*Again: **we are not a bank**.*/
-ONBOARD_interface_title__alt    :  'MEWは窓口である', /*MEW is an Interface*/
+ONBOARD_interface_title__alt    :  'MEWは窓口である', /*GoChainWallet is an Interface*/
 ONBOARD_why_title__alt          :  'でも... 何故それがそんなに大事なの？', /*But...why does this matter?*/
 ONBOARD_why_title               :  '何故全部読ませるの？', /*Why are you making me read all this?*/
 ONBOARD_why_content__1          :  'それは、私たちに**出来ない**事をご理解していただくためです...', /*Because we need you to understand that we **cannot**...*/
