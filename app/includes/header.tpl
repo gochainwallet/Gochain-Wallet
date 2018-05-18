@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Gochainwallet.com</title>
+<title>GoChainWallet.com</title>
 <meta property="og:title" content="Gochainwallet.com: Your Key to Gochain">
 <meta property="og:site_name" content="Gochainwallet.com: Your Key to Gochain">
 <meta name="twitter:title" content="Gochainwallet.com: Your Key to Gochain">
 <meta name="apple-mobile-web-app-title" content="Gochainwallet.com: Your Key to Gochain">
-<link href="https://www.Gochainwallet.com" rel="canonical">
-<meta content="https://www.Gochainwallet.com" property="og:url">
-<meta content="https://www.Gochainwallet.com" name="twitter:url">
+<link href="https://www.gochainwallet.com" rel="canonical">
+<meta content="https://www.gochainwallet.com" property="og:url">
+<meta content="https://www.gochainwallet.com" name="twitter:url">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
 <script type="text/javascript" src="js/etherwallet-master.js"></script>
@@ -30,8 +30,8 @@
 <meta name="msapplication-config" content="images/fav/browserconfig.xml">
 <meta name="theme-color" content="#1d6986">
 <meta name="apple-mobile-web-app-status-bar-style" content="#1d6986">
-<meta property="og:url" content="https://www.Gochainwallet.com" />
-<meta property="og:title" content="Gochainwallet.com  &middot; Your Key to Gochain" />
+<meta property="og:url" content="https://www.gochainwallet.com" />
+<meta property="og:title" content="GoChainWallet.com  &middot; Your Key to Gochain" />
 <meta property="og:type" content="website">
 <meta property="og:image" content="/images/myetherwallet-logo-banner.png" />
 <meta property="og:image" content="/images/myetherwallet-logo.png" />
@@ -54,10 +54,10 @@
   "url"   : "https://gochainwallet.com",
   "contactType" : "customer service"
 }],
-"logo" : "https://www.Gochainwallet.com/images/myetherwallet-logo.png",
+"logo" : "https://www.gochainwallet.com/images/myetherwallet-logo.png",
 "description": "GoChainWallet.com is a free, open-source, client-side interface for generating Gochain wallets &amp; more. Interact with the Gochain blockchain easily &amp; securely.",
 "sameAs" : [
-  "https://www.Gochainwallet.com/",
+  "https://www.gochainwallet.com/",
   "https://www.facebook.com/Gochainwallet/",
   "https://twitter.com/Gochainwallet",
   "https://medium.com/@Gochainwallet",
