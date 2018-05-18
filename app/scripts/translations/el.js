@@ -167,8 +167,8 @@ ONBOARD_secure_title            :  'How To Protect Yourself & Your Funds',
 ONBOARD_secure_1_title          :  'How To Protect Yourself from Phishers',
 ONBOARD_secure_1_content__1     :  'Phishers send you a message with a link to a website that looks just like GoChainWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.',
 ONBOARD_secure_1_content__2     :  'Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [GoChainWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.',
-ONBOARD_secure_1_content__3     :  'Always check the URL: `https://www.myetherwallet.com`.',
-ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET INC` in green.',
+ONBOARD_secure_1_content__3     :  'Always check the URL: `https://www.gochainwallet.com`.',
+ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `GOCHAINWALLET INC` in green.',
 ONBOARD_secure_1_content__5     :  'Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.',
 ONBOARD_secure_1_content__6     :  'Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.',
 ONBOARD_secure_1_content__7     :  '[Install an AdBlocker](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) and do not click ads on your search engine (e.g. Google).',
@@ -259,7 +259,7 @@ GEN_Unlock                  : 'Ξεκλειδώστε το πορτοφόλι σ
 GAS_PRICE_Desc              : 'Η τιμή αερίου είναι το ποσό που πληρώνετε ανά μονάδα αερίου. `τέλος συναλλαγής = τιμή αερίου * όριο αερίου` & πληρώνεται στους μεταλλωρύχους για να συμπεριλάβουν τη συναλλαγή σας σε ένα μπλοκ. Υψηλότερη τιμή αερίου = ταχύτερη συναλλαγή, αλλά πιο ακριβή. Η προεπιλογή είναι `41 GWEI`.',
 GAS_LIMIT_Desc              : 'Το όριο αερίου είναι το ποσό αερίου που θα σταλεί με τη συναλλαγή σας. `τέλος συναλλαγής` = τιμή αερίου * όριο αερίου & πληρώνεται στους μεταλλωρύχους για να συμπεριλάβουν τη συναλλαγή σας σε ένα μπλοκ. Το να αυξήσετε αυτόν τον αριθμό δεν θα κάνει τη συναλλαγή σας να εξορυχθεί ταχύτερα. Αποστολή ETH = `21000`. Αποστολή μαρκών = ~`200000`.',
 NONCE_Desc                  : 'Το nonce είναι ο αριθμός των συναλλαγών που αποστέλλονται από δεδομένη διεύθυνση. Εξασφαλίζει ότι οι συναλλαγές αποστέλλονται με τη σειρά και όχι περισσότερες από μία φορές.',
-TXFEE_Desc                  : 'Το τέλος συναλλαγής πληρώνεται στους μεταλλωρύχους για να συμπεριλάβουν τη συναλλαγή σας σε ένα μπλοκ. Είναι το `όριο αερίου` * `τιμή αερίου`. [Μπορείτε να μετατρέψετε GWEI -> ETH εδώ](https://www.myetherwallet.com/helpers.html)',
+TXFEE_Desc                  : 'Το τέλος συναλλαγής πληρώνεται στους μεταλλωρύχους για να συμπεριλάβουν τη συναλλαγή σας σε ένα μπλοκ. Είναι το `όριο αερίου` * `τιμή αερίου`. [Μπορείτε να μετατρέψετε GWEI -> ETH εδώ](https://www.gochainwallet.com/helpers.html)',
 
 
 
@@ -482,7 +482,7 @@ CX_quicksend                : 'Ταχυ-αποστολή ',
 /* Node Switcher */
 NODE_Title                  : 'Εγκαταστήστε τον προσαρμοσμένο κόμβο σας',
 NODE_Subtitle               : 'Για να συνδεθείτε σε έναν τοπικό κόμβο...',
-NODE_Warning                : 'Ο κόμβος σας πρέπει να είναι HTTPS για να συνδεθείτε σε αυτόν μέσω του GoChainWallet.com. Μπορείτε να [κατεβάσετε το αποθετήριο GoChainWallet και να το εκτελέσετε τοπικά](https://github.com/kvhnuke/etherwallet/releases/latest) για να συνδεθείτε σε οποιονδήποτε κόμβο. Ή, αποκτήστε ένα δωρεάν πιστοποιητικό SSL μέσω του [LetsEncrypt](https://letsencrypt.org/)',
+NODE_Warning                : 'Ο κόμβος σας πρέπει να είναι HTTPS για να συνδεθείτε σε αυτόν μέσω του GoChainWallet.com. Μπορείτε να [κατεβάσετε το αποθετήριο GoChainWallet και να το εκτελέσετε τοπικά](https://github.com/gochainwallet/etherwallet για να συνδεθείτε σε οποιονδήποτε κόμβο. Ή, αποκτήστε ένα δωρεάν πιστοποιητικό SSL μέσω του [LetsEncrypt](https://letsencrypt.org/)',
 NODE_Name                   : 'Όνομα κόμβου',
 NODE_Port                   : 'Θύρα κόμβου',
 NODE_CTA                    : 'Αποθήκευση & χρήση προσαρμοσμένου κόμβου',
@@ -595,7 +595,7 @@ ERROR_24                    : 'Παρακαλούμε εισαγάγετε έγ�
 ERROR_25                    : 'Παρακαλούμε εισαγάγετε έγκυρο αναγνωριστικό αλυσίδας. ', // 25
 ERROR_26                    : 'Παρακαλούμε εισαγάγετε έγκυρο ABI. ', // 26
 ERROR_27                    : 'Ελάχιστο ποσό: 0.01. Μέγιστο ποσό: ', // 27
-ERROR_28                    : 'Προκειμένου να έχετε πρόσβαση σε αυτό το πορτοφόλι στο μέλλον **είναι απαραίτητο το αρχείο Keystore/JSON & το συνθηματικό ή το ιδιωτικό κλειδί σας**. Παρακαλούμε κρατήστε ένα εξωτερικό αντίγραφο ασφαλείας! Δεν υπάρχει τρόπος ανάκτησης ενός πορτοφολιού άν δεν το αποθηκεύσετε. Διαβάστε τη σελίδα [βοήθειας](https://www.myetherwallet.com/#help) για οδηγίες. ',
+ERROR_28                    : 'Προκειμένου να έχετε πρόσβαση σε αυτό το πορτοφόλι στο μέλλον **είναι απαραίτητο το αρχείο Keystore/JSON & το συνθηματικό ή το ιδιωτικό κλειδί σας**. Παρακαλούμε κρατήστε ένα εξωτερικό αντίγραφο ασφαλείας! Δεν υπάρχει τρόπος ανάκτησης ενός πορτοφολιού άν δεν το αποθηκεύσετε. Διαβάστε τη σελίδα [βοήθειας](https://www.gochainwallet.com/#help) για οδηγίες. ',
 ERROR_29                    : 'Παρακαλούμε εισαγάγετε έγκυρο χρήστη και συνθηματικό ',
 ERROR_30                    : 'Παρακαλούμε εισαγάγετε έγκυρο όνομα (7+ χαρακτήρες, περιορισμένα σημεία στίξης) ', // 30
 ERROR_31                    : 'Παρακαλούμε εισαγάγετε έγκυρη μυστική φράση. ', // 31
@@ -639,13 +639,13 @@ WARN_Send_Link              : 'Έχετε φθάσει εδώ μέσω ενός 
 /* Tranlsation Info */
 translate_version           : '0.3 ',
 Translator_Desc             : 'Ευχαριστούμε τους μεταφραστές μας ',
-TranslatorName_1            : '[VitalikFanBoy#117](https://www.myetherwallet.com/?gaslimit=21000&to=0x245f27796a44d7e3d30654ed62850ff09ee85656&value=1.0#send-transaction) · ',
+TranslatorName_1            : '[VitalikFanBoy#117](https://www.gochainwallet.com/?gaslimit=21000&to=0x245f27796a44d7e3d30654ed62850ff09ee85656&value=1.0#send-transaction) · ',
 TranslatorAddr_1            : '0x245f27796a44d7e3d30654ed62850ff09ee85656 ',
 /* Translator 1             : Insert Comments Here */
 TranslatorName_2            : 'LefterisJP  · ',
 TranslatorAddr_2            : '',
 /* Translator 2             : Insert Comments Here */
-TranslatorName_3            : '[Nikos Vavoulas](https://www.myetherwallet.com/?gaslimit=21000&to=0x062711C89Bd46E9765CfF0b743Cb83a9dBA2d2d2&value=1.0#send-transaction) · ',
+TranslatorName_3            : '[Nikos Vavoulas](https://www.gochainwallet.com/?gaslimit=21000&to=0x062711C89Bd46E9765CfF0b743Cb83a9dBA2d2d2&value=1.0#send-transaction) · ',
 TranslatorAddr_3            : '0x062711C89Bd46E9765CfF0b743Cb83a9dBA2d2d2 ',
 /* Translator 3             : Insert Comments Here */
 TranslatorName_4            : 'Ιωάννης Πρωτονοτάριος',
@@ -657,7 +657,7 @@ TranslatorAddr_5            : '',
 
 /* Help - Nothing after this point has to be translated. If you feel like being extra helpful, go for it. */
 HELP_Warning                : 'Εάν δημιουργήσατε πορτοφόλι -ή- κατεβάσατε το αποθετήριο πριν από τις **31 Δεκεμβρίου 2015**, παρακαλούμε ελέγξτε τα πορτοφόλια σας και κατεβάσετε μια νέα έκδοση του αποθετηρίου. Κάντε κλικ για λεπτομέρειες. ',
-HELP_Desc                   : 'Do you see something missing? Have another question? [Get in touch with us](mailto:support@myetherwallet.com), and we will not only answer your question, we will update this page to be more useful to people in the future! ',
+HELP_Desc                   : 'Do you see something missing? Have another question? [Get in touch with us](mailto:support@gochainwallet.com), and we will not only answer your question, we will update this page to be more useful to people in the future! ',
 HELP_Remind_Title           : 'Κάποιες υπενθυμίσεις ',
 HELP_Remind_Desc_1          : '**Τα Ethereum, GoChainWallet.com & GoChainWallet CX και μερικές από τις βασικές βιβλιοθήκες Javascript που χρησιμοποιούμε βρίσκονται υπό ενεργό ανάπτυξη.** Ενώ έχουμε κάνει διεξοδικές δοκιμές και έχουν δημιουργηθεί με επιτυχία δεκάδες χιλιάδες πορτοφόλια από άτομα σε όλον τον πλανήτη, υπάρχει πάντα η μικρή πιθανότητα να συμβεί κάτι απροσδόκητο που θα μπορούσε να προκαλέσει την απώλεια των ETH σας. Παρακαλούμε να μην επενδύετε περισσότερο από ό,τι είστε διατεθειμένοι να χάσετε και παρακαλούμε επίσης να προσέχετε. Αν κάτι συμβεί, θα λυπηθούμε, αλλά **δεν θα είμαστε υπεύθυνοι για τον χαμένο Αιθέρα**. ',
 HELP_Remind_Desc_2          : 'Τα GoChainWallet.com & GoChainWallet CX δεν είναι «διαδικτυακά πορτοφόλια». Δεν δημιουργείτε κάποιον λογαριασμό ούτε μας δίνετε τον αιθέρα σας να σας τον φυλάξουμε. Όλα τα δεδομένα δεν φεύγουν από τον υπολογιστή/περιηγητή σας. Σας διευκολύνουμε να δημιουργείτε, να αποθηκεύετε και να έχετε πρόσβαση στις πληροφορίες σας και να αλληλεπιδράτε με το blockchain. ',
@@ -685,7 +685,7 @@ HELP_2a_Desc_5              : 'Εκτυπώστε το πορτοφόλι εάν
 HELP_2a_Desc_6              : 'Λάβετε υπόψιν σας ότι στόχος είναι να αποτρέψετε την απώλεια των κλειδιών και του συνθηματικού από απώλεια ή βλάβη του σκληρού σας δίσκου, ή της μονάδας USB, ή του χαρτιού. Πρέπει επίσης να έχετε κατά νου τη φυσική απώλεια / καταστροφή μιας ολόκληρης περιοχής (σκεφτείτε πυρκαγιά ή πλημμύρα). ',
 
 HELP_2b_Title               : '2β) Πώς μπορώ να έχω ασφάλεια / συναλλαγές εκτός σύνδεσης / ψυχρή αποθήκευση με το GoChainWallet? ',
-HELP_2b_Desc_1              : 'Πηγαίνετε στο [https://github.com/kvhnuke/etherwallet/releases/latest](https://github.com/kvhnuke/etherwallet/releases/latest). ',
+HELP_2b_Desc_1              : 'Πηγαίνετε στο https://github.com/gochainwallet/etherwallet ',
 HELP_2b_Desc_2              : 'Κάντε κλικ στο `etherwallet-vX.X.X.X.zip`. ',
 HELP_2b_Desc_3              : 'Μετακινήστε το zip σε έναν υπολογιστή απομονωμένο από το δίκτυο. ',
 HELP_2b_Desc_4              : 'Αποσυμπιέστε το και κάντε διπλό κλικ στο `index.html`. ',
@@ -868,8 +868,8 @@ HELP_Sec_Title              : 'Ασφάλεια ',
 HELP_Sec_Desc_1             : 'If one of your first questions is "Why should I trust these people?", that is a good thing. Hopefully the following will help ease your fears. ',
 HELP_Sec_Desc_2             : 'We\'ve been up and running since August 2015. If you search for ["myetherwallet" on reddit](https://www.reddit.com/search?q=myetherwallet), you can see numerous people who use us with great success. ',
 HELP_Sec_Desc_3             : 'We aren\'t going to take your money or steal your private key(s). There is no malicious code on this site. In fact the "GENERATE WALLET" pages are completely client-side. That means that all the code is executed on ** your computer** and it is never saved and transmitted anywhere. ',
-HELP_Sec_Desc_4             : 'Check the URL -- This site is being served through GitHub and you can see the source code here: [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) to [https://www.myetherwallet.com](https://www.myetherwallet.com). ',
-HELP_Sec_Desc_5             : 'For generating wallets, you can download the [source code and run it locally](https://github.com/kvhnuke/etherwallet/releases/latest). See #5 above. ',
+HELP_Sec_Desc_4             : 'Check the URL -- This site is being served through GitHub and you can see the source code here: [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) to [https://www.gochainwallet.com](https://www.gochainwallet.com). ',
+HELP_Sec_Desc_5             : 'For generating wallets, you can download the [source code and run it locally](https://github.com/gochainwallet/etherwallet. See #5 above. ',
 HELP_Sec_Desc_6             : 'Generate a test wallet and check and see what network activity is happening. The easiest way for you to do this is to right click on the page and click "inspect element". Go to the "Network" tab. Generate a test wallet. You will see there is no network activity. You may see something happening that looks like data:image/gif and data:image/png. Those are the QR codes being generated...on your computer...by your computer. No bytes were transferred. ',
 HELP_Sec_Desc_8             : 'If you do not feel comfortable using this tool, then by all means, do not use it. We created this tool as a helpful way for people to generate wallets and make transactions without needing to dive into command line or run a full node. Again, feel free to reach out if you have concerns and we will respond as quickly as possible. Thanks! ',
 

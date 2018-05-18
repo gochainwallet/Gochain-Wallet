@@ -167,8 +167,8 @@ ONBOARD_secure_title            :  'How To Protect Yourself & Your Funds',
 ONBOARD_secure_1_title          :  'How To Protect Yourself from Phishers',
 ONBOARD_secure_1_content__1     :  'Phishers send you a message with a link to a website that looks just like GoChainWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.',
 ONBOARD_secure_1_content__2     :  'Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [GoChainWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.',
-ONBOARD_secure_1_content__3     :  'Always check the URL: `https://www.myetherwallet.com`.',
-ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET INC` in green.',
+ONBOARD_secure_1_content__3     :  'Always check the URL: `https://www.gochainwallet.com`.',
+ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `GOCHAINWALLET INC` in green.',
 ONBOARD_secure_1_content__5     :  'Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.',
 ONBOARD_secure_1_content__6     :  'Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.',
 ONBOARD_secure_1_content__7     :  '[Install an AdBlocker](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) and do not click ads on your search engine (e.g. Google).',
@@ -258,7 +258,7 @@ GEN_Unlock                  : 'Déverouillez votre portefeuille pour voir votre 
 GAS_PRICE_Desc              : 'Le prix du Gas est le montant que vous payez par unité de Gas. `frais de transaction = prix du GAS x GAS limite` est payé aux mineurs pour inclure votre transaction dans un bloc. Prix de GAS plus haut = transaction plus rapide, mais plus coûteuse. Le prix par défaut est de `21 GWEI`.',
 GAS_LIMIT_Desc              : 'Le GAS limite est le montant de GAS à envoyer avec votre transaction. `frais de transaction = prix du GAS * GAS limite` est payé aux mineurs pour inclure votre transaction dans un bloc. Augmenter ce nombre n\'exécutera pas votre transaction plus rapidement. Envoyer ETH : `21000`. Envoyer des Tokens : ~`200000`.',
 NONCE_Desc                  : 'Le nonce est le nombre de transactions envoyées depuis une adresse. Il fait en sorte que les transactions sont envoyées en ordre et pas plus d\'une fois.',
-TXFEE_Desc                  : 'Les frais de transaction sont payés aux mineurs pour inclure votre transaction dans un bloc. Cela représente le `GAS limite` * le `prix du GAS`. [Vous pouvez convertir GWEI -> ETH ici.](https://www.myetherwallet.com/helpers.html)',
+TXFEE_Desc                  : 'Les frais de transaction sont payés aux mineurs pour inclure votre transaction dans un bloc. Cela représente le `GAS limite` * le `prix du GAS`. [Vous pouvez convertir GWEI -> ETH ici.](https://www.gochainwallet.com/helpers.html)',
 
 
 /* Navigation*/
@@ -522,7 +522,7 @@ CX_quicksend                : 'Envoyer', // if no appropriate translation, just 
 /* Misc *//* Node Switcher */
 NODE_Title                  : 'Ajouter votre nœud personnalisé',
 NODE_Subtitle               : 'Connexion à un nœud local…',
-NODE_Warning                : 'Votre nœud doit être en HTTPS pour vous y connecter via GoChainWallet.com. Vous pouvez [télécharger GoChainWallet et le lancer localement](https://github.com/kvhnuke/etherwallet/releases/latest) pour vous connecter à un nœud quelconque, ou obtenir un certificat SSL gratuit via [LetsEncrypt](https://letsencrypt.org/)',
+NODE_Warning                : 'Votre nœud doit être en HTTPS pour vous y connecter via GoChainWallet.com. Vous pouvez [télécharger GoChainWallet et le lancer localement](https://github.com/gochainwallet/etherwallet pour vous connecter à un nœud quelconque, ou obtenir un certificat SSL gratuit via [LetsEncrypt](https://letsencrypt.org/)',
 NODE_Name                   : 'Nom du nœud',
 NODE_Port                   : 'Port du nœud',
 NODE_CTA                    : 'Sauvegarder et utiliser le nœud personnalisé',
@@ -592,7 +592,7 @@ ERROR_24                    : '(error_25) Please enter a valid port. Veuillez en
 ERROR_25                    : '(error_26) Please enter a valid chain ID. Veuillez entrer un ID de chaîne valide.',
 ERROR_26                    : '(error_27) Please enter a valid ABI. Veuillez entrer une ABI valide.',
 ERROR_27                    : '(error_28) Minimum amount: 0.01. Max amount: Montant minimum : 0.01. Montant maximum : ',
-ERROR_28                    : '(error_29) You need this `Keystore File + Password` or the `Private Key` (next page) to access this wallet in the future.  **Vous avez besoin de votre fichier Keystore et du mot de passe** (ou de la clé privée) pour accéder à ce portefeuille à l\'avenir. Merci de le télécharger et d\'en faire une sauvegarde externe. Il n\'existe aucun moyen de récupérer un portefeuille si vous ne le sauvegardez pas. Merci de lire la [page d\'Aide](https://www.myetherwallet.com/#help) pour plus de détails.',
+ERROR_28                    : '(error_29) You need this `Keystore File + Password` or the `Private Key` (next page) to access this wallet in the future.  **Vous avez besoin de votre fichier Keystore et du mot de passe** (ou de la clé privée) pour accéder à ce portefeuille à l\'avenir. Merci de le télécharger et d\'en faire une sauvegarde externe. Il n\'existe aucun moyen de récupérer un portefeuille si vous ne le sauvegardez pas. Merci de lire la [page d\'Aide](https://www.gochainwallet.com/#help) pour plus de détails.',
 ERROR_29                    : '(error_30) Please enter a valid user and password. Veuillez entrer un nom d\'utilisateur et mot de passe valides.',
 ERROR_30                    : '(error_31) Please enter a valid name (7+ characters, limited punctuation) Veuillez entrer un nom ENS valide.',
 ERROR_31                    : '(error_32) Please enter a valid secret phrase. Phrase secrète invalide.',
@@ -637,7 +637,7 @@ PARITY_TooCheapToReplace    : "(parity-08) TX Fee is too low. It does not satisf
 /* Tranlsation Info */
 translate_version           : '0.4',
 Translator_Desc             : 'Merci à nos traducteurs',
-TranslatorName_1            : '[Simon P](https://www.myetherwallet.com/?gaslimit=21000&to=0x89a18eE46b5aabC62e94b1830881887D04C687f3&value=1.0#send-transaction) ·',
+TranslatorName_1            : '[Simon P](https://www.gochainwallet.com/?gaslimit=21000&to=0x89a18eE46b5aabC62e94b1830881887D04C687f3&value=1.0#send-transaction) ·',
 TranslatorAddr_1            : '0x89a18eE46b5aabC62e94b1830881887D04C687f3 ',
 /* Translator 1             : Translation in French. Début de la traduction, il reste encore du travail.. Je continue dès que j'ai un peu de temps :) */
 TranslatorName_2            : 'Jean Zundel ·',
@@ -655,7 +655,7 @@ TranslatorAddr_5            : '0x4817Ad0411eddB9A32fda74AD1a2DfCAb3a89039',
 
 /* Help - Nothing after this point has to be translated. If you feel like being extra helpful, go for it. */
 HELP_Warning                : 'Si vous avez créé un portefeuille ou téléchargé le référentiel avant **le 31 déc. 2015**, merci de vérifier vos portefeuilles ou de télécharger une nouvelle version du référentiel. Cliquez ici pour plus de détails.',
-HELP_Desc                   : 'Il manque quelque chose ? Vous avez d\'autres questions ? [Contactez-nous](mailto:support@myetherwallet.com), et non seulement nous allons vous répondre, mais nous mettrons aussi à jour cette page afin qu\'elle soit plus utile à tout le monde à l\'avenir !',
+HELP_Desc                   : 'Il manque quelque chose ? Vous avez d\'autres questions ? [Contactez-nous](mailto:support@gochainwallet.com), et non seulement nous allons vous répondre, mais nous mettrons aussi à jour cette page afin qu\'elle soit plus utile à tout le monde à l\'avenir !',
 HELP_Remind_Title           : 'Quelques rappels :',
 HELP_Remind_Desc_1          : '**Ethereum, GoChainWallet.com & GoChainWallet CX, ainsi que certaines des bibliothèques Javascript que nous employons sont en cours de développement.** Bien que nous les ayons testés intensivement et que des dizaines de milliers de portefeuilles aient été créés avec succès dans le monde entier, il existe toujours une faible possibilité qu\'un incident se produise, conduisant à la perte de vos ethers. N\'investissez pas plus que ce que vous pouvez vous permettre de perdre, et restez toujours prudents. En cas d\'accident, nous en serons désolés mais **nous ne sommes pas responsables d\'une éventuelle perte d\'ether**.',
 HELP_Remind_Desc_2          : 'GoChainWallet.com & GoChainWallet CX ne sont pas des "portefeuilles web". Vous ne créez pas un compte, vous ne déposez pas votre ether chez nous. Aucune donnée ne sort de votre ordinateur ou de votre navigateur. Nous vous facilitons la création, la sauvegarde et l\'accès à vos informations ainsi que l\'interaction avec le blockchain.',
@@ -684,7 +684,7 @@ HELP_2a_Desc_5              : 'Imprimez votre portefeuille si vous avez une impr
 HELP_2a_Desc_6              : 'Gardez à l\'esprit qu\'il faut vous préserver de la perte de la clef et du mot de passe en cas de perte de votre disque dur, de votre clef oui de la feuille de papier. Vous devez également vous prémunir contre les catastrophes pouvant toucher votre zone géographique (comme un incendie ou une inondation).',
 
 HELP_2b_Title               : '2b) Comment puis-je gérer en toute sécurité un stockage hors ligne avec GoChainWallet ?',
-HELP_2b_Desc_1              : 'Allez sur notre référentiel Github : [https://github.com/kvhnuke/etherwallet/releases/latest](https://github.com/kvhnuke/etherwallet/releases/latest).',
+HELP_2b_Desc_1              : 'Allez sur notre référentiel Github : https://github.com/gochainwallet/etherwallet',
 HELP_2b_Desc_2              : 'Cliquez sur `etherwallet-vX.X.X.X.zip` ',
 HELP_2b_Desc_3              : 'Transportez le zip sur un ordinateur hors ligne. ',
 HELP_2b_Desc_4              : 'Décompressez-le et double-cliquez sur `index.html`.',
@@ -865,8 +865,8 @@ HELP_Sec_Title              : 'Sécurité',
 HELP_Sec_Desc_1             : 'Si l\'une des premières questions que vous vous posez est "Pourquoi devrais-je faire confiance à ces gens ?", c\'est une bonne démarche. Nous espérons que ce qui suit va dissiper vos craintes. ',
 HELP_Sec_Desc_2             : 'Nous avons commencé en août 2015. Si vous recherchez ["myetherwallet" sur reddit](https://www.reddit.com/search?q=myetherwallet), vous pouvez voir qu\'un nombre considérable de personnes nous utilisent sans problème. ',
 HELP_Sec_Desc_3             : 'Nous n\'allons pas prendre votre argent ou voler vos clefs privées. Il n\'y a pas de code malveillant sur ce site. En fait, les pages sont du côté du client. Cela signifie que tout le code s\'éxécute sur **votre ordinateur** et n\'est jamais sauvegardé ou transmis où que ce soit.',
-HELP_Sec_Desc_4             : 'Vérifiez l\'URL -- Ce site est servi par Github (et vous pouvez en voir le code source ici : [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages)) vers [https://www.myetherwallet.com](https://www.myetherwallet.com).',
-HELP_Sec_Desc_5             : 'Pour générer les portefeuilles, vous pouvez télécharger le [code source](https://github.com/kvhnuke/etherwallet/releases/latest). Voir #5 ci-dessus. ',
+HELP_Sec_Desc_4             : 'Vérifiez l\'URL -- Ce site est servi par Github (et vous pouvez en voir le code source ici : [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages)) vers [https://www.gochainwallet.com](https://www.gochainwallet.com).',
+HELP_Sec_Desc_5             : 'Pour générer les portefeuilles, vous pouvez télécharger le [code source](https://github.com/gochainwallet/etherwallet. Voir #5 ci-dessus. ',
 HELP_Sec_Desc_6             : 'Lancez un test et vérifiez le type d\'activité réseau. La manière la plus simple consiste en un clic droit sur la page, puis "Inspecter". Allez à l\'onglet "Network". Générez un portefeuille de test. Vous verrez qu\'il n\'y a pas d\'activité réseau. Vous pourrez voir quelque chose se produire ressemblant à data:image/gif et data:image/png. Ce sont les QR codes en cours de génération... sur votre ordinateur. Aucun octet n\'a été transféré. ',
 HELP_Sec_Desc_8             : 'Si cet outil ne vous plaît pas, alors ne l\'utilisez surtout pas. Nous l\'avons créé pour qu\'il aide les gens à générer des portefeuilles et à effectuer des transactions sans avoir besoin de plonger dans des lignes de commandes, ni faire tourner un nœud complet. À nouveau, n\'hésitez pas à nous faire part de vos doutes et nous répondrons aussi rapidement que possible. Merci ! ',
 

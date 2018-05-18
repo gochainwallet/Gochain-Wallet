@@ -167,8 +167,8 @@ ONBOARD_secure_title            :  'How To Protect Yourself & Your Funds',
 ONBOARD_secure_1_title          :  'How To Protect Yourself from Phishers',
 ONBOARD_secure_1_content__1     :  'Phishers send you a message with a link to a website that looks just like GoChainWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.',
 ONBOARD_secure_1_content__2     :  'Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [GoChainWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.',
-ONBOARD_secure_1_content__3     :  'Always check the URL: `https://www.myetherwallet.com`.',
-ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET INC` in green.',
+ONBOARD_secure_1_content__3     :  'Always check the URL: `https://www.gochainwallet.com`.',
+ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `GOCHAINWALLET INC` in green.',
 ONBOARD_secure_1_content__5     :  'Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.',
 ONBOARD_secure_1_content__6     :  'Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.',
 ONBOARD_secure_1_content__7     :  '[Install an AdBlocker](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) and do not click ads on your search engine (e.g. Google).',
@@ -258,7 +258,7 @@ GEN_Unlock                  : 'ปลดล็อกกระเป๋าเพ�
 GAS_PRICE_Desc              : 'ราคาแก๊สคือจำนวนที่คุณจ่ายต่อหนึ่งหน่วยของจำนวนแก๊ส `ค่าธรรมเนียมของ ธุรกรรม (TX) = ราคาแก๊ส * จำนวนจำกัดแก๊ส` และจะถูกจ่ายให้กับผู้ขุดที่ขุด TX ของคุณลงในบล็อค ยิ่งราคาแก๊สสูง = ธุรกรรมก็จะสำเร็จเร็วขึ้น แต่ค่าธรรมเนียมก็จะแพงขึ้นเช่นกัน ค่าเริ่มต้นคือ `41 GWEI`',
 GAS_LIMIT_Desc              : 'จำนวนจำกัดแก๊ส คือปริมาณของแก๊สที่จะส่งไปกับธุรกรรม (TX) ของคุณ `ค่าธรรมเนียม TX = ราคาแก๊ส * จำนวนจำกัดแก๊ส` และจะถูกจ่ายให้กับผู้ขุดที่ขุด TX ของคุณลงในบล็อค การเพิ่มจำนวนนี้จะไม่ทำให้ TX ของคุณถูกขุดสำเร็จไวขึ้น การส่ง ETH = `21000` หากส่ง Token = ~`200000`',
 NONCE_Desc                  : 'ค่า nonce คือตัวเลขของธุรกรรมที่ถูกส่งไปยังที่อยู่ที่ระบุ เพื่อเป็นการยืนยันให้ธุรกรรมถูกส่งได้อย่างถูกต้องตามลำดับ และไม่ซ้ำกัน',
-TXFEE_Desc                  : 'ค่าธรรมเนียมธุรกรรม (TX) จะถูกจ่ายให้กับผู้ขุดที่ขุด TX ของคุณลงในบล็อค มีค่าเท่ากับ `จำนวนจำกัดแก๊ส` * `ราคาแก๊ส` [คุณสามารถแปลง GWEI -> ETH ได้ที่นี่](https://www.myetherwallet.com/helpers.html)',
+TXFEE_Desc                  : 'ค่าธรรมเนียมธุรกรรม (TX) จะถูกจ่ายให้กับผู้ขุดที่ขุด TX ของคุณลงในบล็อค มีค่าเท่ากับ `จำนวนจำกัดแก๊ส` * `ราคาแก๊ส` [คุณสามารถแปลง GWEI -> ETH ได้ที่นี่](https://www.gochainwallet.com/helpers.html)',
 
 
 /* Navigation*/
@@ -315,7 +315,7 @@ MEW_Tagline                 : 'โอเพ่นซอร์ส JavaScript ฝ�
 MEW_Warning_1               : 'ตรวจสอบ URL ทุกครั้ง ก่อนเข้าใช้กระเป๋าของคุณหรือสร้างกระเป๋าใหม่ ระวังเว็บไซต์ลอกเลียนแบบประสงค์ร้าย! ',
 
 /* Footer */
-FOOTER_1                    : 'ฟรี, โอเพ่นซอร์ส, อินเตอร์เฟสฝั่งไคลเอนต์สำหรับสร้างกระเป๋า Ethereum &amp; อื่นๆอีกมากมาย และทำธุรกรรมผ่านบล็อคเชนของ Ethereum ได้อย่างง่ายดาย &amp; ปลอดภัย อย่าลืมตรวจสอบ URL ( myetherwallet.com ) ทุกครั้งก่อนเข้าใช้กระเป๋าของคุณ',
+FOOTER_1                    : 'ฟรี, โอเพ่นซอร์ส, อินเตอร์เฟสฝั่งไคลเอนต์สำหรับสร้างกระเป๋า Ethereum &amp; อื่นๆอีกมากมาย และทำธุรกรรมผ่านบล็อคเชนของ Ethereum ได้อย่างง่ายดาย &amp; ปลอดภัย อย่าลืมตรวจสอบ URL ( gochainwallet.com ) ทุกครั้งก่อนเข้าใช้กระเป๋าของคุณ',
 FOOTER_1b                   : 'สร้างขึ้นโดย ',
 FOOTER_2                    : 'ยินดีรับบริจาค ',
 FOOTER_3                    : 'บริการสร้างกระเป๋าโดย ',
@@ -499,7 +499,7 @@ DEP_interface               : 'Interface ที่ถูกสร้างขึ
 /* Node Switcher */
 NODE_Title                  : 'ติดตั้ง Node แบบกำหนดเอง',
 NODE_Subtitle               : 'เชื่อมต่อไปยัง local node...',
-NODE_Warning                : 'Node ของคุณจะต้องเป็น HTTPS เพื่อที่จะเชื่อมต่อกับ GoChainWallet.com คุณสามารถ [ดาวน์โหลดซอร์สโค้ดจาก GoChainWallet repo & รันบนเครื่องคอมพิวเตอร์ของคุณ](https://github.com/kvhnuke/etherwallet/releases/latest) เพื่อเชื่อมต่อกับ Node ใดๆ หรือสร้างใบรับรอง SSL ผ่าน [LetsEncrypt](https://letsencrypt.org/)',
+NODE_Warning                : 'Node ของคุณจะต้องเป็น HTTPS เพื่อที่จะเชื่อมต่อกับ GoChainWallet.com คุณสามารถ [ดาวน์โหลดซอร์สโค้ดจาก GoChainWallet repo & รันบนเครื่องคอมพิวเตอร์ของคุณ](https://github.com/gochainwallet/etherwallet เพื่อเชื่อมต่อกับ Node ใดๆ หรือสร้างใบรับรอง SSL ผ่าน [LetsEncrypt](https://letsencrypt.org/)',
 NODE_Name                   : 'ชื่อ Node',
 NODE_Port                   : 'พอร์ตของ Node',
 NODE_CTA                    : 'บันทึก & ใช้ Node แบบกำหนดเอง',
@@ -619,7 +619,7 @@ PARITY_InvalidGasLimit      : "จำนวนแก๊สที่ใช้เ�
 /* Tranlsation Info */
 translate_version           : '0.1 ',
 Translator_Desc             : 'ขอบคุณผู้แปลภาษา ',
-TranslatorName_1            : '[Tianissimo (Suteepat)](https://www.myetherwallet.com/?gaslimit=21000&to=0x8d0a185C16ADE28bf69Cb38c5e3df605360df40e&value=1.0#send-transaction) ',
+TranslatorName_1            : '[Tianissimo (Suteepat)](https://www.gochainwallet.com/?gaslimit=21000&to=0x8d0a185C16ADE28bf69Cb38c5e3df605360df40e&value=1.0#send-transaction) ',
 TranslatorAddr_1            : '0x8d0a185C16ADE28bf69Cb38c5e3df605360df40e ',
 /* Translator 1             : Insert Comments Here */
 TranslatorName_2            : ' ',
@@ -637,7 +637,7 @@ TranslatorAddr_5            : ' ',
 
 /* Help - Nothing after this point has to be translated. If you feel like being extra helpful, go for it. */
 HELP_Warning                : 'If you created a wallet -or- downloaded the repo before **Dec. 31st, 2015**, please check your wallets &amp; download a new version of the repo. Click for details. ',
-HELP_Desc                   : 'Do you see something missing? Have another question? [Get in touch with us](mailto:support@myetherwallet.com), and we will not only answer your question, we will update this page to be more useful to people in the future! ',
+HELP_Desc                   : 'Do you see something missing? Have another question? [Get in touch with us](mailto:support@gochainwallet.com), and we will not only answer your question, we will update this page to be more useful to people in the future! ',
 HELP_Remind_Title           : 'Some reminders ',
 HELP_Remind_Desc_1          : '**Ethereum, GoChainWallet.com & GoChainWallet CX, and some of the underlying Javascript libraries we use are under active development.** While we have thoroughly tested & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your ETH to be lost. Please do not invest more than you are willing to lose, and please be careful. If something were to happen, we are sorry, but **we are not responsible for the lost Ether**. ',
 HELP_Remind_Desc_2          : 'GoChainWallet.com & GoChainWallet CX are not "web wallets". You do not create an account or give us your Ether to hold onto. All data never leaves your computer/your browser. We make it easy for you to create, save, and access your information and interact with the blockchain. ',
@@ -666,7 +666,7 @@ HELP_2a_Desc_5              : 'Print the wallet if you have a printer. Otherwise
 HELP_2a_Desc_6              : 'Keep in mind, you must prevent loss of the keys and password due to loss or failure of you hard drive failure, or USB drive, or piece of paper. You also must keep in mind physical loss / damage of an entire area (think fire or flood). ',
 
 HELP_2b_Title               : '2b) How do I safely / offline / cold storage with GoChainWallet? ',
-HELP_2b_Desc_1              : 'Go to [https://github.com/kvhnuke/etherwallet/releases/latest](https://github.com/kvhnuke/etherwallet/releases/latest). ',
+HELP_2b_Desc_1              : 'Go to https://github.com/gochainwallet/etherwallet ',
 HELP_2b_Desc_2              : 'Click on `etherwallet-vX.X.X.X.zip`. ',
 HELP_2b_Desc_3              : 'Move zip to an airgapped computer. ',
 HELP_2b_Desc_4              : 'Unzip it and double-click `index.html`. ',
@@ -849,8 +849,8 @@ HELP_Sec_Title              : 'Security ',
 HELP_Sec_Desc_1             : 'If one of your first questions is "Why should I trust these people?", that is a good thing. Hopefully the following will help ease your fears. ',
 HELP_Sec_Desc_2             : 'We\'ve been up and running since August 2015. If you search for ["myetherwallet" on reddit](https://www.reddit.com/search?q=myetherwallet), you can see numerous people who use us with great success. ',
 HELP_Sec_Desc_3             : 'We aren\'t going to take your money or steal your private key(s). There is no malicious code on this site. In fact the "GENERATE WALLET" pages are completely client-side. That means that all the code is executed on ** your computer** and it is never saved and transmitted anywhere. ',
-HELP_Sec_Desc_4             : 'Check the URL -- This site is being served through GitHub and you can see the source code here: [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) to [https://www.myetherwallet.com](https://www.myetherwallet.com). ',
-HELP_Sec_Desc_5             : 'For generating wallets, you can download the [source code and run it locally](https://github.com/kvhnuke/etherwallet/releases/latest). See #5 above. ',
+HELP_Sec_Desc_4             : 'Check the URL -- This site is being served through GitHub and you can see the source code here: [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) to [https://www.gochainwallet.com](https://www.gochainwallet.com). ',
+HELP_Sec_Desc_5             : 'For generating wallets, you can download the [source code and run it locally](https://github.com/gochainwallet/etherwallet. See #5 above. ',
 HELP_Sec_Desc_6             : 'Generate a test wallet and check and see what network activity is happening. The easiest way for you to do this is to right click on the page and click "inspect element". Go to the "Network" tab. Generate a test wallet. You will see there is no network activity. You may see something happening that looks like data:image/gif and data:image/png. Those are the QR codes being generated...on your computer...by your computer. No bytes were transferred. ',
 HELP_Sec_Desc_8             : 'If you do not feel comfortable using this tool, then by all means, do not use it. We created this tool as a helpful way for people to generate wallets and make transactions without needing to dive into command line or run a full node. Again, feel free to reach out if you have concerns and we will respond as quickly as possible. Thanks! ',
 
