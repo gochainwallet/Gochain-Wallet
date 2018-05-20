@@ -532,7 +532,7 @@ TRANS_advanced                  :  '+Advanced: Add Data',
 TRANS_data                      :  'Data',
 TRANS_desc                      :  'If you want to send Tokens, please use the "Send Token" page instead.',
 TRANS_gas                       :  'Gas Limit',
-TRANS_sendInfo                  :  'A standard transaction using 21000 gas will cost 0.000441 ETH. We do not take a transaction fee.',
+TRANS_sendInfo                  :  'A standard transaction using 21000 gas will cost 0.000441 GOC. We do not take a transaction fee.',
 
 translate_version               :  '0.5',
 Translator_Desc                 :  '',
