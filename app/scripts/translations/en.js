@@ -567,7 +567,7 @@ TXFEE_Desc                      :  'The TX Fee is paid to miners for including y
 
 VIEWWALLET_HidePrivKey          :  '(hide)',
 VIEWWALLET_ShowPrivKey          :  '(show)',
-VIEWWALLET_Subtitle             :  'This allows you to download different versions of private keys and re-print your paper wallet. You may want to do this in order to [import your account into Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). If you want to check your balance, we recommend using a blockchain explorer like [etherscan.io](https://etherscan.io/).',
+VIEWWALLET_Subtitle             :  'This allows you to download different versions of private keys and re-print your paper wallet. You may want to do this in order to [import your account into Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). If you want to check your balance, we recommend using a blockchain explorer like [explorer.gochain.io](https://testnet-explorer.gochain.io/).',
 VIEWWALLET_Subtitle_Short       :  'This allows you to download different versions of private keys and re-print your paper wallet.',
 VIEWWALLET_SuccessMsg           :  'Success! Here are your wallet details.',
 
