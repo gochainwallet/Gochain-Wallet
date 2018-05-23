@@ -42,15 +42,15 @@ nodes.customNodeObj = {
 nodes.nodeList = {
 	'goc': {
         'name': 'GOC',
-        'blockExplorerTX': 'https://testnet-explorer.gochain.io/tx/[[txHash]]',
-        'blockExplorerAddr': 'https://testnet-explorer.gochain.io/addr/[[address]]',
+        'blockExplorerTX': 'https://explorer.gochain.io/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://explorer.gochain.io/addr/[[address]]',
         'type': nodes.nodeTypes.GOC,
         'eip155': true,
         'chainId': 31337,
         'tokenList': require('./tokens/gocTokens.json'),
         'abiList': require('./abiDefinitions/gocAbi.json'),
         'service': 'GoChain',
-        'lib': new nodes.customNode('https://testnet-rpc.gochain.io', '')
+        'lib': new nodes.customNode('https://rpc.gochain.io', '')
     }
 };
 
