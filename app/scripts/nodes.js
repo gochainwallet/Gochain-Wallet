@@ -4,7 +4,7 @@ nodes.customNode = require('./nodeHelpers/customNode');
 nodes.infuraNode = require('./nodeHelpers/infura');
 nodes.metamaskNode = require('./nodeHelpers/metamask');
 nodes.nodeTypes = {
-    GOC: "GOC",
+    GO: "GO",
 	ETH: "ETH",
     ETC: "ETC",
     MUS: "MUSIC",
@@ -40,11 +40,11 @@ nodes.customNodeObj = {
     'lib': null
 };
 nodes.nodeList = {
-	'goc': {
-        'name': 'GOC',
+	'GO': {
+        'name': 'GO',
         'blockExplorerTX': 'https://explorer.gochain.io/tx/[[txHash]]',
         'blockExplorerAddr': 'https://explorer.gochain.io/addr/[[address]]',
-        'type': nodes.nodeTypes.GOC,
+        'type': nodes.nodeTypes.GO,
         'eip155': true,
         'chainId': 31337,
         'tokenList': require('./tokens/gocTokens.json'),

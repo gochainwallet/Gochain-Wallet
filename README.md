@@ -6,7 +6,7 @@
 
 - Create new wallets completely client side.
 - Access your wallet via unencrypted private key, encrypted private key, keystore files, mnemonics, or Digital Bitbox, Ledger Nano S or TREZOR hardware wallet.
-- Easily send GOC and *any* ERC-20 Standard Token. 
+- Easily send GO and *any* ERC-20 Standard Token. 
 - Generate, sign & send transactions offline, ensuring your private keys never touch an internet-connected device.
 - Now in 18 languages thanks 100% to the amazing Gochain community.
 - Supports URI Strings on Send Transaction Page.
@@ -22,7 +22,7 @@
 ### Our Philosophy
 
  - **Empower the people**: Give people the ability to interact with the Gochain blockchain easily, without having to run a full node.
- - **Make it easy & free**: Everyone should be able to create a wallet and send GOC & Tokens without additional cost.
+ - **Make it easy & free**: Everyone should be able to create a wallet and send GO & Tokens without additional cost.
  - **People are the Priority**: People are the most important & their experience trumps all else. If monetization worsens the experience, we don't do it. (e.g. ads)
  - **A learning experience, too**: We want to educate about Gochain, security, privacy, the importance of controlling your own keys, how the blockchain works, and how Gochain and blockchain technologies enable a better world.
  - **If it can be hacked, it will be hacked**: Never save, store, or transmit secret info, like passwords or keys.

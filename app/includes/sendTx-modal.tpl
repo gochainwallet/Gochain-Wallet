@@ -76,7 +76,7 @@
             </tr>
             <tr>
               <td class="small text-right">Amount to Send:</td>
-              <td class="small text-left mono">{{parsedSignedTx.value}} GOC</td>
+              <td class="small text-left mono">{{parsedSignedTx.value}} GO</td>
             </tr>
             <tr>
               <td class="small text-right">Account Balance:</td>
@@ -96,12 +96,12 @@
             </tr>
             <tr>
               <td class="small text-right">Gas Price:</td>
-              <td class="small text-left mono">{{parsedSignedTx.gasPrice.gwei}} GWEI <small>({{parsedSignedTx.gasPrice.eth}} GOC)</small>
+              <td class="small text-left mono">{{parsedSignedTx.gasPrice.gwei}} GWEI <small>({{parsedSignedTx.gasPrice.eth}} GO)</small>
               </td>
             </tr>
             <tr>
               <td class="small text-right">Max TX Fee:</td>
-              <td class="small text-left mono"> {{parsedSignedTx.txFee.eth}} GOC <small>({{parsedSignedTx.txFee.gwei}} GWEI)</small></td>
+              <td class="small text-left mono"> {{parsedSignedTx.txFee.eth}} GO <small>({{parsedSignedTx.txFee.gwei}} GWEI)</small></td>
             </tr>
             <tr>
               <td class="small text-right">Nonce:</td>
