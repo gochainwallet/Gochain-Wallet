@@ -4,7 +4,7 @@ nodes.customNode = require('./nodeHelpers/customNode');
 nodes.infuraNode = require('./nodeHelpers/infura');
 nodes.metamaskNode = require('./nodeHelpers/metamask');
 nodes.nodeTypes = {
-    GO: "GO",
+    Gochain: "GO",
 	ETH: "ETH",
     ETC: "ETC",
     MUS: "MUSIC",
@@ -44,12 +44,12 @@ nodes.nodeList = {
         'name': 'GO',
         'blockExplorerTX': 'https://explorer.gochain.io/tx/[[txHash]]',
         'blockExplorerAddr': 'https://explorer.gochain.io/addr/[[address]]',
-        'type': nodes.nodeTypes.GO,
+        'type': nodes.nodeTypes.Gochain,
         'eip155': true,
         'chainId': 31337,
         'tokenList': require('./tokens/gocTokens.json'),
         'abiList': require('./abiDefinitions/gocAbi.json'),
-        'service': 'GoChain',
+        'service': 'Gochain',
         'lib': new nodes.customNode('https://rpc.gochain.io', '')
     }
 };
