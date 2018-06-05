@@ -1,24 +1,16 @@
-###GoChainWallet https://gochainwallet.com
+GoChain Wallet 
+https://gochainwallet.com
 
-- GoChainWallet is a free, open-source, client-side tool for easily & securely interacting with the Gochain network. As one of the leading providers of Gochain services, GoChainWallet equips users with an easy-to-understand and accessible suite of tools for their needs.
+GoChain Wallet is a free, open-source, client-side tool for easily & securely interacting with the Gochain network. As one of the leading providers of Gochain services, GoChain Wallet equips users with an easy-to-understand and accessible suite of tools for their needs.
 
 #### Features
 
 - Create new wallets completely client side.
-- Access your wallet via unencrypted private key, encrypted private key, keystore files, mnemonics, or Digital Bitbox, Ledger Nano S or TREZOR hardware wallet.
+- Access your wallet via unencrypted private key, encrypted private key, keystore files, mnemonics
 - Easily send GO and *any* ERC-20 Standard Token. 
 - Generate, sign & send transactions offline, ensuring your private keys never touch an internet-connected device.
-- Now in 18 languages thanks 100% to the amazing Gochain community.
-- Supports URI Strings on Send Transaction Page.
-    - to=[address]
-    - value=[number]
-    - sendMode=[ether | token]
-    - tokenSymbol=[ARC | ICN | MKR | ....]
-    - gasLimit=[number] OR gas=[number]
-    - data=[hex data]
-    - Example 1: https://www.gochainwallet.com/?to=0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D&value=1&gaslimit=23000&data=0x5468616e6b20796f752c204d455720322e30#send-transaction
 
-	
+
 ### Our Philosophy
 
  - **Empower the people**: Give people the ability to interact with the Gochain blockchain easily, without having to run a full node.
@@ -35,4 +27,4 @@
 If you can think of any other features or run into bugs, let us know. You can fork, open a PR, open an issue, or support at gochainwallet dot com.
 
 
-#### GoChainWallet.com & GoChainWallet CX are licensed under The MIT License (MIT).
+GoChainWallet.com are licensed under The MIT License (MIT).

@@ -4,17 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>GoChainWallet.com</title>
-<meta property="og:title" content="Gochainwallet.com: Your Key to Gochain">
-<meta property="og:site_name" content="Gochainwallet.com: Your Key to Gochain">
-<meta name="twitter:title" content="Gochainwallet.com: Your Key to Gochain">
+<meta property="og:title" content="Gochain Wallet: Your Key to Gochain">
+<meta property="og:site_name" content="Gochain Wallet: Your Key to Gochain">
+<meta name="twitter:title" content="Gochain Wallet: Your Key to Gochain">
 <meta name="apple-mobile-web-app-title" content="Gochainwallet.com: Your Key to Gochain">
-<link href="https://www.gochainwallet.com" rel="canonical">
-<meta content="https://www.gochainwallet.com" property="og:url">
-<meta content="https://www.gochainwallet.com" name="twitter:url">
+<link href="https://gochainwallet.com" rel="canonical">
+<meta content="https://gochainwallet.com" property="og:url">
+<meta content="https://gochainwallet.com" name="twitter:url">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
 <script type="text/javascript" src="js/etherwallet-master.js"></script>
-<meta name="description" content="Gochainwallet is a free, open-source, client-side interface for generating Gochain wallets & more. Interact with the Gochain blockchain easily & securely.">
+<meta name="description" content="Gochain wallet is a free, open-source, client-side interface for generating Gochain wallets & more. Interact with the Gochain blockchain easily & securely.">
 <meta property="og:description"  content="Free, open-source, client-side Gochain wallet. Enabling you to interact with the blockchain easily & securely.">
 <meta name="twitter:description" content="Free, open-source, client-side Gochain wallet. Enabling you to interact with the blockchain easily & securely.">
 <meta name="robots" content="index,follow">
@@ -45,17 +45,17 @@
 {
 "@context": "http://schema.org",
 "@type" : "Organization",
-"name" : "GoChainWallet",
-"legalName" : "GoChainWallet Inc",
-"url" : "https://www.gochainwallet.com/",
+"name" : "GoChain Wallet",
+"legalName" : "GoChain Wallet Inc",
+"url" : "https://gochainwallet.com/",
 "contactPoint" : [{
   "@type" : "ContactPoint",
   "email" : "support@gochainwallet.com",
   "url"   : "https://gochainwallet.com",
   "contactType" : "customer service"
 }],
-"logo" : "https://www.gochainwallet.com/images/myetherwallet-logo.png",
-"description": "GoChainWallet.com is a free, open-source, client-side interface for generating Gochain wallets &amp; more. Interact with the Gochain blockchain easily &amp; securely.",
+"logo" : "https://gochainwallet.com/images/myetherwallet-logo.png",
+"description": "GoChain Wallet is a free, open-source, client-side interface for generating Gochain wallets &amp; more. Interact with the Gochain blockchain easily &amp; securely.",
 "sameAs" : [
   "https://www.gochainwallet.com/",
   "https://www.facebook.com/Gochainwallet/",
