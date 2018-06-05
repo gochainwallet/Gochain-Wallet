@@ -22,7 +22,7 @@ nodes.nodeTypes = {
     CLO: "CLO",
     CLOT: "Testnet CLO",
     EAST: "EAST",
-    Custom: "CUSTOM ETH"
+    Custom: "CUSTOM GO"
 };
 nodes.ensNodeTypes = [nodes.nodeTypes.ETH, nodes.nodeTypes.Ropsten];
 nodes.ensSubNodeTypes = [nodes.nodeTypes.ETH];
@@ -46,11 +46,23 @@ nodes.nodeList = {
         'blockExplorerAddr': 'https://explorer.gochain.io/addr/[[address]]',
         'type': nodes.nodeTypes.Gochain,
         'eip155': true,
-        'chainId': 31337,
+        'chainId': 60,
         'tokenList': require('./tokens/gocTokens.json'),
         'abiList': require('./abiDefinitions/gocAbi.json'),
         'service': 'Gochain',
         'lib': new nodes.customNode('https://rpc.gochain.io', '')
+    },
+	'Testnet': {
+        'name': 'Testnet',
+        'blockExplorerTX': 'https://testnet-explorer.gochain.io/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://testnet-explorer.gochain.io/addr/[[address]]',
+        'type': nodes.nodeTypes.Custom,
+        'eip155': true,
+        'chainId': 31337,
+        'tokenList': require('./tokens/gocTokens.json'),
+        'abiList': require('./abiDefinitions/gocAbi.json'),
+        'service': 'Testnet',
+        'lib': new nodes.customNode('https://testnet-rpc.gochain.io', '')
     }
 };
 
