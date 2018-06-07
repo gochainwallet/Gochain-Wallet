@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>GoChainWallet.com</title>
+<title>Gochain Wallet</title>
 <meta property="og:title" content="Gochain Wallet: Your Key to Gochain">
 <meta property="og:site_name" content="Gochain Wallet: Your Key to Gochain">
 <meta name="twitter:title" content="Gochain Wallet: Your Key to Gochain">
