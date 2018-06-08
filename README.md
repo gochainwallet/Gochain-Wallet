@@ -1,7 +1,7 @@
-GoChain Wallet 
+Gochain Wallet 
 https://gochainwallet.com
 
-GoChain Wallet is a free, open-source, client-side tool for easily & securely interacting with the Gochain network. As one of the leading providers of Gochain services, GoChain Wallet equips users with an easy-to-understand and accessible suite of tools for their needs.
+Gochain Wallet is a free, open-source, client-side tool for easily & securely interacting with the Gochain network. As one of the leading providers of Gochain services, Gochain Wallet equips users with an easy-to-understand and accessible suite of tools for their needs.
 
 #### Features
 
@@ -27,4 +27,4 @@ GoChain Wallet is a free, open-source, client-side tool for easily & securely in
 If you can think of any other features or run into bugs, let us know. You can fork, open a PR, open an issue, or support at gochainwallet dot com.
 
 
-GoChainWallet.com are licensed under The MIT License (MIT).
+GochainWallet.com are licensed under The MIT License (MIT).
